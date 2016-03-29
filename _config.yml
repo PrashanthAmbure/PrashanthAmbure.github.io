@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            '#Prashanth Ambure'
+tagline:          'Insanity Restored'
+description:      'Blog by <a href="https://www.github.com/PrashanthAmbure" target="_blank">Prashanth Ambure</a>'
+url:              http://lanyon.getpoole.com
+baseurl:          ''
+
+author:
+  name:           'Prashanth Ambure'
+  url:            https://twitter.com/PrashanthAmbure
+
+gems:             [jekyll-paginate]
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://www.github.com/PrashanthAmbure
