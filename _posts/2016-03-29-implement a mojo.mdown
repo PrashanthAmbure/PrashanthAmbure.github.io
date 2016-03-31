@@ -1,6 +1,0 @@
----
-layout: post
-title: Implement a MOJO
----
-
-Even before implementing a MOJO, it's essential to understand what is MOJO.
