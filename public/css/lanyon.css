@@ -47,7 +47,7 @@ html {
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: #313131;
+  color: #0388a6;
   letter-spacing: -.025rem;
 }
 
@@ -316,7 +316,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #0069a9;
 }
 .page-title,
 .post-title {
@@ -445,12 +445,12 @@ a.pagination-item:hover {
 .theme-base-08 .sidebar,
 .theme-base-08 .sidebar-toggle:active,
 .theme-base-08 #sidebar-checkbox:checked ~ .sidebar-toggle {
-  background-color: #beba46;
+  background-color: #0069a9;
 }
 .theme-base-08 .container a,
 .theme-base-08 .sidebar-toggle,
 .theme-base-08 .related-posts li a:hover {
-  color: #beba46;
+  color: #0069a9;
 }
 
 /* Orange */
