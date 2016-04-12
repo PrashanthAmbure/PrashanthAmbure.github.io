@@ -19,7 +19,7 @@ It's very often not every programmer likes the other programmers code unless it'
 
 A well formatted code to me is,
 
-* To have good naming convention -  `int inputNumber` as a variable name is more readable than just saying `input a`.
+* To have good naming convention -  `int inputNumber` as a variable name is more readable than just saying `int a`.
 
 * Enough white space within a code always removes the ugliness. Instruction written like this `x = y + z` looks more neat and clean than `x=y+z`.
 
