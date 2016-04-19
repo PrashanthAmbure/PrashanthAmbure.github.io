@@ -31,17 +31,17 @@ Even before this whole gets murkier lets dive into learn how to implement a mojo
 Implementing a MOJO is simply writing one class which would extend _AbstractMojo_ class override _execute()_. A sample MOJO looks something like this,
 
 >
-	@goal gather-hibernate-hbm-xmls
+	@goal collect-hibernate-hbm-xmls
 	@phase generate-resources
 >	
-	public class HibernateGathererMojo extends AbstractMojo {}
+	public class HBMXMLGathererMojo extends AbstractMojo {
 >
 	@parameter expression="${project.build.sourceDirectory}"
 	@required
->	
 	private File sourceDirectory;
-		public void execute() throws MojoExecutionException {
-		}	
+>	
+	public void execute() throws MojoExecutionException {
+	}	
 >
 	}
 
@@ -58,8 +58,7 @@ Once the MOJO is developed install the package into the local repository. Now at
 > 			<execution>
 > 				<phase>generate-resources</phase>
 > 				<goals>
-> 					<goal>gather-hibernate-hbm-xmls</goal>
-> 					<goal>gather-spring-bean-xmls</goal>
+> 					<goal>collect-hibernate-hbm-xmls</goal>
 > 				</goals>
 > 			</execution>
 > 		</executions>
