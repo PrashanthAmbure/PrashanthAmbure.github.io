@@ -11,7 +11,7 @@ title: Code formatting is an art
 
 When you're asked to look at someone else's code, myriad developers react [like this.](https://pbs.twimg.com/tweet_video/CafHN8FWEAAIOGA.mp4)
 
-<video id="play-video-on-scroll" width="683" height="384" class="video-js vjs-default-skin" controls preload="auto" webkit-playsinline>
+<video id="play-video-on-scroll" width="100%" height="auto" class="video-js vjs-default-skin" preload="auto" webkit-playsinline>
 <source src="https://pbs.twimg.com/tweet_video/CafHN8FWEAAIOGA.mp4" type="video/mp4">
 </video>
 
