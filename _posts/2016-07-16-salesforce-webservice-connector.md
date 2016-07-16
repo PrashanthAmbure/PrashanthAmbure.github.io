@@ -17,7 +17,7 @@ To retrieve, update or delete records, such as `ACCOUNT` object. Any language th
 
 ### Step 1: Generate and download WSDLs
 
-To get your org-specific WSDLs, log into your organization and then click _**Your Name >> Setup >> App Setup >> Develop >> API**_. We need three WSDLs:
+To get your org-specific WSDLs, log into your organization and then click _Your Name >> Setup >> App Setup >> Develop >> API_. We need three WSDLs:
 
 * the enterprise WSDL (unique to your organization)
 * the partner WSDL (generic)
@@ -49,8 +49,8 @@ To generate the enterprise, partner and metadata client JARs, run the following 
 Now that our environment is ready to go, open Eclipse...
 
 1. Create a new Java project named “WSC - Enterprise” (click File >> New >> Java Project).
-2. Add the wsc-XX.jar and enterprise.jar to the project (click Project >> Properties >> Java Build Path >> Libraries or External Libraries, then add the JARs to the project.
-3. Add a new folder, wsc, to the src folder in your app (right-click src in Package Explorer, then click New | Folder).
+2. Add the wsc-XX.jar and enterprise.jar to the project (click _Project >> Properties >> Java Build Path >> Libraries or External Libraries, then add the JARs to the project_).
+3. Add a new folder, wsc, to the src folder in your app (right-click src in Package Explorer, then click _New >> Folder_).
 4. Create a new class src/wsc/Main.java and paste in the code from [here](https://github.com/PrashanthAmbure/salesforce-wsc-SOAP).
 
 
