@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Salesforce Web Services connector from Java
+title: Salesforce Web Services Connector from Java
 ---
 
-The intent of this blog is to understand the concept of accessing your own Salesforce org's information programmatically. To use this blog one should be familiar with SOAP and RESTFul WebServices. Salesforce provides different API's for different needs of accessing your salesforce org's details. In this blog we will learn how to use SOAP API as this stands the foundation for the rest web services.
+The intent of this blog is to understand the concept of accessing your own Salesforce org's information programmatically. To use this blog one should be familiar with SOAP WebServices. Salesforce provides different API's for different needs of accessing your salesforce org's details. In this blog we will learn how to use SOAP API as this stands the foundation for the RESTFul WebServices.
 
 # SOAP API
 
-To retrieve, update or delete records, such as `ACCOUNT` object. Any language that supports WebServices can help us to perform this operation. I've a sample java program implemented in which uses SOAP API to perform standard CRUD opertaions on _**ACCOUNT**_ object. Please follow the below steps.
+To retrieve, update or delete records, such as `ACCOUNT` object(pre-defined or built salesforce object) we can use this API. Any language that supports WebServices can help us to perform this operation. I've a sample java program implemented which uses SOAP API to perform standard CRUD opertaions on _**ACCOUNT**_ object. Please follow the below steps.
 
 ## Prepare to integrate JAVA app with SOAP API.
 
@@ -52,6 +52,8 @@ Now that our environment is ready to go, open Eclipse...
 2. Add the wsc-XX.jar and enterprise.jar to the project (click _Project >> Properties >> Java Build Path >> Libraries or External Libraries, then add the JARs to the project_).
 3. Add a new folder, wsc, to the src folder in your app (right-click src in Package Explorer, then click _New >> Folder_).
 4. Create a new class src/wsc/Main.java and paste in the code from [here](https://github.com/PrashanthAmbure/salesforce-wsc-SOAP).
+
+Please note this program performs all the standard CRUD operations.
 
 
 
