@@ -51,9 +51,19 @@ Now that our environment is ready to go, open Eclipse...
 1. Create a new Java project named “WSC - Enterprise” (click File >> New >> Java Project).
 2. Add the wsc-XX.jar and enterprise.jar to the project (click _Project >> Properties >> Java Build Path >> Libraries or External Libraries, then add the JARs to the project_).
 3. Add a new folder, wsc, to the src folder in your app (right-click src in Package Explorer, then click _New >> Folder_).
-4. Create a new class src/wsc/Main.java and paste in the code from [here](https://github.com/PrashanthAmbure/salesforce-wsc-SOAP).
 
+#### CRUD Program
+
+Copy the code from this [file](https://github.com/PrashanthAmbure/salesforce-wsc-SOAP/blob/master/src/wsc/Main.java)
 Please note this program performs all the standard CRUD operations.
+
+#### Create CustomField
+
+Copy the code from this [file](https://github.com/PrashanthAmbure/salesforce-wsc-SOAP/blob/master/src/wsc/CustomFieldDemo.java)
+
+#### Create ApexClass
+
+Copy the code from this [file](https://github.com/PrashanthAmbure/salesforce-wsc-SOAP/blob/master/src/wsc/ApexClassDemo.java)
 
 
 
