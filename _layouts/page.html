@@ -1,8 +1,11 @@
 ---
 layout: default
 ---
-<div class="profile-img-div">
-	<img src="/assets/dp.jpg" class="profile-img" />	
+<div ng-app="gitHubUserInfo">
+	<div class="profile-img-div" ng-controller="userInfoCtrl">
+		<!-- <img src="/assets/dp.jpg" class="profile-img" /> -->
+		<img ng-src="[[user.avatar_url]]" class="profile-img" />
+	</div>
 </div>
 <div class="profile-info-div">
 	<table style="height: 100px">
